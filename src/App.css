@@ -1,0 +1,14 @@
+.container {
+  width: 1144px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+button {
+  background: transparent;
+  border: none;
+}

@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  padding-top: 31px;
+  align-items: center;
+}
+
+.linksList {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.1875;
+  color: #170c04;
+}
+
+.linksList li:not(:last-child) {
+  margin-right: 55px;
+}
+
+.buttonsList {
+  display: flex;
+  align-items: center;
+}
+
+.buttonsList li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 291px;
+}
+
+.logo p {
+  margin-left: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 22px;
+  line-height: 1.1818;
+  font-weight: 500;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
