@@ -2,6 +2,9 @@
   display: flex;
   padding-top: 31px;
   align-items: center;
+  position: fixed;
+  background: white;
+  width: 1144px;
 }
 
 .linksList {

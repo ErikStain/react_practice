@@ -1,0 +1,40 @@
+.hero {
+  padding-top: 218px;
+  padding-bottom: 137px;
+  background: url(../../images/puppy.svg),
+    linear-gradient(293deg, #e27a3a1a 35%, rgb(255, 255, 255) 35%);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 120px;
+}
+
+.buttonList {
+  margin-top: 119px;
+  display: flex;
+}
+
+.buttonList li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.buttonList button {
+  padding: 12px 30px;
+  /* opacity: 0.15; */
+  color: #e27b3a;
+  background: #e5e5e5;
+  border: 1px solid #e27b3a;
+  border-radius: 24px;
+}
+
+.buttonList button:hover,
+.buttonList button:focus {
+  background: #e27b3a;
+  color: rgb(255, 255, 255);
+}
