@@ -1,23 +1,24 @@
-import Header from './components/Header/Header';
-import './styles/modern-normalize.css';
-import './App.css';
-import {Hero} from "./components/Hero/Hero";
-import {Products} from "./components/Products/Products"
-import {Popular} from "./components/Popular/Popular"
-import {DogCare} from "./components/DogCare/DogCare"
-import {Subscription} from "./components/Subsription/Subsription"
+import Header from './components/Header/Header'
+import './styles/modern-normalize.css'
+import './App.css'
+import Home from './layouts/Home/Home'
+import Blog from './layouts/Blog/Blog'
+import Contacts from './layouts/Contacts/Contacts'
+import { Switch, Route } from 'react-router-dom'
+import DogCarePage from './layouts/DogCare/DogCare'
 
 function App() {
   return (
     <div className="App container">
-      <Header/>
-      <Hero/>
-      <Products/>
-      <Popular/>
-      <DogCare/>
-      <Subscription/>
+      <Header />
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/blog" component={Blog} />
+        <Route path="/contacts" component={Contacts} />
+        <Route path="/dogcare" component={DogCarePage} />
+      </Switch>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -3,6 +3,7 @@ import logo from '../../images/logo.svg'
 import search from '../../images/search.svg'
 import cart from '../../images/cart.svg'
 import menu from '../../images/menu.svg'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -14,10 +15,21 @@ function Header() {
       <nav className={styles.nav}>
         <ul className={styles.linksList}>
           <li>
+            <Link to="/" exact="true">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/blog">Blog</Link>
+          </li>
+          <li>
+            <Link to="/contacts">Contacts</Link>
+          </li>
+          <li>
             <a href="/products">Products</a>
           </li>
           <li>
-            <a href="/dog care">Dog care</a>
+            <Link to="/dogcare">Dog care</Link>
           </li>
           <li>
             <a href="/about">About</a>
