@@ -1,4 +1,4 @@
-import styles from './Subsription.module.css'
+// import styles from './Subsription.module.css'
 import img1 from '../../images/Vector.png'
 import img2 from '../../images/Vector (1).png'
 import img3 from '../../images/Vector (2).png'
@@ -10,7 +10,7 @@ export function Subscription() {
       <ul>
         <li>
           <div>
-            <img src={img1} />
+            <img src={img1} alt="img"/>
           </div>
           <div>
               <h2>Dogs leave paw prints forever on our hearts</h2>
@@ -20,7 +20,7 @@ export function Subscription() {
         </li>
         <li>
           <div>
-            <img src={img2} />
+            <img src={img2} alt="img"/>
           </div>
           <div>
               <h2>Dogs leave paw prints forever on our hearts</h2>
@@ -30,7 +30,7 @@ export function Subscription() {
         </li>
         <li>
           <div>
-            <img src={img3} />
+            <img src={img3} alt="img"/>
           </div>
           <div>
               <h2>Dogs leave paw prints forever on our hearts</h2>

@@ -1,0 +1,63 @@
+.list {
+  display: flex;
+}
+
+.list li {
+  width: 360px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding-top: 40px;
+  padding-bottom: 18px;
+  padding-left: 25px;
+  padding-right: 25px;
+  /* z-index: 1; */
+}
+.list li:hover {
+  box-shadow: 0 3px 20px 4px #e27a3a;
+
+  border-radius: 8px;
+}
+
+.list li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.itemTitle {
+  margin-bottom: 11px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 37px;
+  text-align: center;
+
+  color: #170c04;
+}
+
+.itemText {
+  margin-bottom: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+
+  text-align: center;
+
+  color: #170c04;
+
+  opacity: 0.6;
+}
+
+.itemButton {
+  display: block;
+  margin: 0 auto;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: #e27b3a;
+}

@@ -1,25 +1,12 @@
-import styles from "./Products.module.css"
+// import styles from './Products.module.css'
+import ProductsList from './ProductList'
+import { array } from '../../database/products.json'
+// console.log(array)
 
-export function Products () {
-    return(
-        <section>
-        <ul>
-            <li>
-                <h3>Best Quality Products Pen Foods</h3>
-                <p>Dogs leave paw prints forever on our hearts. A dog shade the.</p>
-                <button>See Details</button>
-            </li>
-            <li>
-                <h3>Best Quality Products Pen Foods</h3>
-                <p>Dogs leave paw prints forever on our hearts. A dog shade the.</p>
-                <button>See Details</button>
-            </li>
-            <li>
-                <h3>Best Quality Products Pen Foods</h3>
-                <p>Dogs leave paw prints forever on our hearts. A dog shade the.</p>
-                <button>See Details</button>
-            </li>
-        </ul>
+export function Products() {
+  return (
+    <section>
+      <ProductsList array={array} />
     </section>
-        )
+  )
 }

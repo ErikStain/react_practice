@@ -1,11 +1,11 @@
-import styles from './DogCare.module.css'
+// import styles from './DogCare.module.css'
 import img1 from '../../images/Mask Group.png'
 
 export function DogCare() {
   return (
     <section>
       <div>
-        <img src={img1} />
+        <img src={img1} alt="img" />
       </div>
       <div>
         <p>Dog Care</p>
