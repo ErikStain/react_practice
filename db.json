@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "email": "nokiro.imp@gmail.com",
+      "pass": "ollikujyhtg",
+      "userName": "Andrew",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "name": "gfhsfh",
+      "comment": "sdghgdhs",
+      "id": 1
+    },
+    {
+      "name": "Kiril",
+      "comment": "sdbdcahsbvcsdjkav kjasndvkjSVCJKsd sfvnasfjkjvfadjdvbhkj",
+      "id": 2
+    }
+  ]
+}

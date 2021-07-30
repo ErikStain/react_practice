@@ -35,7 +35,7 @@ function Header() {
             <a href="/about">About</a>
           </li>
           <li>
-            <a href="/popular">Popular</a>
+            <a href="/register">Register</a>
           </li>
         </ul>
         <ul className={styles.buttonsList}>

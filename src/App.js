@@ -6,6 +6,8 @@ import Blog from './layouts/Blog/Blog'
 import Contacts from './layouts/Contacts/Contacts'
 import { Switch, Route } from 'react-router-dom'
 import DogCarePage from './layouts/DogCare/DogCare'
+import { Register } from './layouts/Register/Register'
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Route path="/blog" component={Blog} />
         <Route path="/contacts" component={Contacts} />
         <Route path="/dogcare" component={DogCarePage} />
+        <Route path="/register" component={Register} />
       </Switch>
     </div>
   )
