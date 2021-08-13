@@ -1,4 +1,41 @@
 {
+  "popularProducts": {
+    "title": "Popular Products",
+    "content": "A dog in heat needs more than shade The more people I meet the more I like my dog.Dogs leave paw prints forever on our hearts.",
+    "popular": [
+      {
+        "id": "1",
+        "title": "Mauris blandit aliquet",
+        "button": "View Details",
+        "img": "https://dogsfunny.ru/wp-content/uploads/2017/10/strogij_metal.jpg"
+      },
+      {
+        "id": "2",
+        "title": "Mauris blandit aliquet",
+        "button": "View Details",
+        "img": "https://images.ua.prom.st/820019610_w640_h640_sobachij-oshejnik-iz.jpg"
+      },
+      {
+        "id": "3",
+        "title": "Mauris blandit aliquet",
+        "button": "View Details",
+        "img": "https://images.ua.prom.st/2115380631_shleya-nagrudnik-dlya.jpg"
+      },
+      {
+        "id": "4",
+        "title": "Mauris blandit aliquet",
+        "button": "View Details",
+        "img": "https://fordogtrainers.ru/images/stories/virtuemart/product/shirokij-sobachij-oshejnik-s-shipami-cool-novelty-s90.jpg"
+      },
+      {
+        "id": "5",
+        "title": "Mauris blandit aliquet",
+        "button": "View Details",
+        "img": "https://ae01.alicdn.com/kf/H02bed74644ea44c0933f09ac568e7f09z/PipiFren.jpg_q50.jpg"
+      }
+    ],
+    "button": "View All Products"
+  },
   "users": [
     {
       "email": "nokiro.imp@gmail.com",
