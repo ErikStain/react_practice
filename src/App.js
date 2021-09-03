@@ -7,7 +7,8 @@ import Contacts from './layouts/Contacts/Contacts'
 import { Switch, Route } from 'react-router-dom'
 import DogCarePage from './layouts/DogCare/DogCare'
 import { Register } from './layouts/Register/Register'
-
+import {Products} from './layouts/Products/Products'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contacts" component={Contacts} />
         <Route path="/dogcare" component={DogCarePage} />
         <Route path="/register" component={Register} />
+        <Route path="/products" component={Products} />
       </Switch>
     </div>
   )
