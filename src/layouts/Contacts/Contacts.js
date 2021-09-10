@@ -1,8 +1,10 @@
 import styles from './Contacts.module.css'
+import { PhoneBook } from '../../components/PhoneBook/PhoneBook.js'
 
 function Contacts() {
   return (
     <section className={styles.contacts}>
+      <PhoneBook />
       <div className={styles.div}>
         <h2 className={styles.title}>Dogs leave paw prints forever.</h2>
         <p className={styles.text}>

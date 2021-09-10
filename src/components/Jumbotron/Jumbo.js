@@ -1,4 +1,4 @@
-import { Jumbotron as Jumbo, Container } from 'react-bootstrap'
+// import { Jumbotron as Jumbo, Container } from 'react-bootstrap'
 import './Jumbo.css'
 
 export function Jumbotron() {
